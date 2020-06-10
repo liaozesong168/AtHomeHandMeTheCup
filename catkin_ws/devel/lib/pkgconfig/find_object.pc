@@ -1,0 +1,8 @@
+prefix=/home/mustar/catkin_ws/devel
+
+Name: find_object
+Description: Description of find_object
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

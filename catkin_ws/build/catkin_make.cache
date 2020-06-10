@@ -1,0 +1,2 @@
+arm_ctrl:catch_object:distance:face_recognition:find_object:hand_camera:kobuki_ctrl:project_launch:rc-home-edu-learn-ros/rchomeedu_apps/rchomeedu_follower:rc-home-edu-learn-ros/rchomeedu_apps/rchomeedu_partybot:rc-home-edu-learn-ros/rchomeedu_arm:rc-home-edu-learn-ros/rchomeedu_navigation:rc-home-edu-learn-ros/rchomeedu_speech:rc-home-edu-learn-ros/rchomeedu_vision:voice_answer_system
+-DCATKIN_DEVEL_PREFIX=/home/mustar/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mustar/catkin_ws/install -G Unix Makefiles

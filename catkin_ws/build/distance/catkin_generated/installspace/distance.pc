@@ -1,0 +1,8 @@
+prefix=/home/mustar/catkin_ws/install
+
+Name: distance
+Description: Description of distance
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

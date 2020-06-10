@@ -1,0 +1,14 @@
+<launch>
+        <group ns="main">
+                <node pkg="voice_answer_system" name="tts" type="tts"/>
+                <node pkg="voice_answer_system" name="tuling" type="tuling"/>
+                <node pkg="hand_camera" name="hand_camera" type="hand_camera"/>
+                <node pkg="arm_ctrl" name="arm_ctrl" type="arm_ctrl.py"/>
+                <node pkg="distance" name="distance" type="distance_pub.py"/>
+                <node pkg="catch_object" name="catch_object" type="catch_object"/>
+                <node pkg="kobuki_ctrl" name="goback" type="goback"/>
+                <node pkg="face_recognition" name="face_location" type="face_location.py"/>
+                <node pkg="voice_answer_system" name="nlp" type="nlp"/>
+                <node pkg="face_recognition" name="face_recognition_pub" type="face_recognition_pub.py"/>
+        </group>
+</launch>

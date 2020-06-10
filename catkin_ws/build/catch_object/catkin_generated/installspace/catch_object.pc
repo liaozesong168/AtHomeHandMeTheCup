@@ -1,0 +1,8 @@
+prefix=/home/mustar/catkin_ws/install
+
+Name: catch_object
+Description: Description of catch_object
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
